@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="assets/styles/main.scss" />
+    </head>
+    <body class="bg-info">
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">BILBAO BBK LIVE</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="artistas.html">Artistas</a>
+                        <a class="nav-link" href="noticia.html">Noticia</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container-fluid contacto">
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="row">
+                    <div class="col-md">
+                        <input type="text" class="form-control" placeholder="Nombre" />
+                    </div>
+                    <div class="col-md">
+                        <input type="email" class="form-control" placeholder="Email" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <input type="phone" class="form-control" placeholder="Teléfono" />
+                    </div>
+                    <div class="col-md">
+                        <input type="text" class="form-control" placeholder="Asunto" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <textarea
+                            class="form-control"
+                            id="exampleFormControlTextarea1"
+                            rows="3"
+                        ></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-black mb-2">Enviar →</button>
+            </form>
+        </main>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-md">
+                    <h4>Cómo llegar</h4>
+                    <p>
+                        Calle del monte s/n <br />
+                        35985 Bilbao <br />España
+                    </p>
+                </div>
+                <div class="col-md">
+                    <h4>Turismo</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ab
+                        suscipit ullam. Quas quos sequi adipisci accusamus blanditiis quaerat
+                        quisquam ea! Expedita nisi fuga sequi fugit unde eveniet laboriosam a?
+                    </p>
+                </div>
+                <div class="col-md">
+                    <h4>Redes Sociales</h4>
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-twitter-square"></i></li>
+                        <li><i class="fab fa-instagram-square"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
