@@ -10,4 +10,92 @@
   .list-circle {
     list-style-type: circle;
   }
+
+  .m-2p {
+    margin: 2.5%;
+  }
+
+  @variants responsive {
+    .m-4p {
+      margin: 4.1%;
+    }
+
+    .w-2_4p {
+      width: 45%;
+    }
+  }
+}
+
+@layer components {
+  .nav {
+    @apply z-10 w-full py-6 px-4 fixed top-0 left-0 flex flex-wrap items-center justify-between	md:justify-start;
+  }
+
+  .nav__logo {
+    @apply font-sans font-bold text-3xl md:text-5xl mr-4;
+  }
+
+  .nav__burger {
+    @apply block md:hidden;
+  }
+
+  .nav__burgerline {
+    @apply block bg-black h-0.5 w-8 my-2;
+  }
+
+  .nav__links {
+    @apply hidden md:block;
+  }
+
+  .nav__link {
+    @apply mx-2 font-sans font-bold text-2xl uppercase hover:line-through;
+  }
+
+  .artists {
+    @apply px-4 mt-20;
+  }
+
+  .artists__container {
+    @apply w-full flex flex-row flex-wrap;
+  }
+
+  .artists__el {
+    @apply relative w-full m-2p sm:w-2_4p md:w-1/4 md:m-4p;
+  }
+
+  .artists__img {
+    @apply w-full h-auto;
+  }
+
+  .artists__name {
+    @apply absolute bottom-4 left-4 font-sans font-bold text-2xl md:text-3xl;
+  }
+
+  .footer {
+    @apply w-full mx-auto;
+  }
+
+  .footer__row {
+    @apply flex flex-wrap;
+  }
+
+  .footer__col {
+    @apply w-full md:w-4/12 px-4 mb-8;
+  }
+
+  .footer__title {
+    @apply mb-2 font-sans text-2xl font-bold;
+  }
+
+  .footer__text {
+    @apply font-sans text-base font-light;
+  }
+
+  .footer__rrss {
+    @apply inline;
+  }
+
+  .footer__icon {
+    @apply inline mr-2 md:mr-4 text-3xl md:text-4xl;
+  }
 }

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>BILBAO BBK LIVE - ARTISTAS</title>
         <link
             href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap"
             rel="stylesheet"
@@ -12,10 +12,10 @@
     </head>
     <body class="bg-mygreen">
         <header>
-            <nav class="">
-                <a class="" href="index.html">BILBAO BBK LIVE</a>
+            <nav class="nav">
+                <a class="nav__logo" href="index.html">BILBAO BBK LIVE</a>
                 <button
-                    class=""
+                    class="nav__burger"
                     type="button"
                     data-toggle="collapse"
                     data-target="#navbarNavAltMarkup"
@@ -23,55 +23,80 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class=""></span>
+                    <span class="nav__burgerline"></span>
+                    <span class="nav__burgerline"></span>
+                    <span class="nav__burgerline"></span>
                 </button>
-                <div class="">
-                    <div class="">
-                        <a class="" href="artistas.html">Artistas</a>
-                        <a class="" href="noticia.html">Noticia</a>
-                        <a class="" href="contacto.html">Contacto</a>
-                    </div>
+                <div class="nav__links">
+                    <a class="nav__link" href="artistas.html">Artistas</a>
+                    <a class="nav__link" href="noticia.html">Noticia</a>
+                    <a class="nav__link" href="contacto.html">Contacto</a>
                 </div>
             </nav>
         </header>
-        <main class=""><div class="artista"></div>
-            <div class=""><img src="assets/images/grid-01.jpg" alt=""><p class="">AMORANTE</p></div>
-            <div class=""><img src="assets/images/grid-02.jpg" alt=""><p class="">BAD BUNNY</p></div>
-            <div class=""><img src="assets/images/grid-03.jpg" alt=""><p class="">BICEP LIVE
-            </p></div>
-            <div class=""><img src="assets/images/grid-04.jpg" alt=""><p class="">BOMBA ESTÉREO</p></div>
-            <div class=""><img src="assets/images/grid-05.jpg" alt=""><p class="">CARIBOU</p></div>
-            <div class=""><img src="assets/images/grid-06.jpg" alt=""><p class="">CARIÑO</p></div>
-            <div class=""><img src="assets/images/grid-07.jpg" alt=""><p class="">CHICO BLANCO
-            </p></div>
-            <div class=""><img src="assets/images/grid-08.jpg" alt=""><p class="">EL COLUMPIO ASESINO
-            </p></div>
-            <div class=""><img src="assets/images/grid-09.jpg" alt=""><p class="">FKA TWIGS
-            </p></div>
+        <main class="artists">
+            <div class="artists__container">
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-01.jpg" alt="" />
+                    <p class="artists__name">AMORANTE</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-02.jpg" alt="" />
+                    <p class="artists__name">BAD BUNNY</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-03.jpg" alt="" />
+                    <p class="artists__name">BICEP LIVE</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-04.jpg" alt="" />
+                    <p class="artists__name">BOMBA ESTÉREO</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-05.jpg" alt="" />
+                    <p class="artists__name">CARIBOU</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-06.jpg" alt="" />
+                    <p class="artists__name">CARIÑO</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-07.jpg" alt="" />
+                    <p class="artists__name">CHICO BLANCO</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-08.jpg" alt="" />
+                    <p class="artists__name">EL COLUMPIO ASESINO</p>
+                </div>
+                <div class="artists__el">
+                    <img class="artists__img" src="assets/images/grid-09.jpg" alt="" />
+                    <p class="artists__name">FKA TWIGS</p>
+                </div>
+            </div>
         </main>
-        <footer class="">
-            <div class="">
-                <div class="">
-                    <h4>Cómo llegar</h4>
-                    <p>
+        <footer class="footer">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <h4 class="footer__title">Cómo llegar</h4>
+                    <p class="footer__text">
                         Calle del monte s/n <br />
                         35985 Bilbao <br />España
                     </p>
                 </div>
-                <div class="">
-                    <h4>Turismo</h4>
-                    <p>
+                <div class="footer__col">
+                    <h4 class="footer__title">Turismo</h4>
+                    <p class="footer__text">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ab
                         suscipit ullam. Quas quos sequi adipisci accusamus blanditiis quaerat
                         quisquam ea! Expedita nisi fuga sequi fugit unde eveniet laboriosam a?
                     </p>
                 </div>
-                <div class="">
-                    <h4>Redes Sociales</h4>
-                    <ul>
-                        <li><i class="fab fa-facebook-square"></i></li>
-                        <li><i class="fab fa-twitter-square"></i></li>
-                        <li><i class="fab fa-instagram-square"></i></li>
+                <div class="footer__col">
+                    <h4 class="footer__title">Redes Sociales</h4>
+                    <ul class="footer__rrss">
+                        <li class="footer__icon"><i class="fab fa-facebook-square"></i></li>
+                        <li class="footer__icon"><i class="fab fa-twitter-square"></i></li>
+                        <li class="footer__icon"><i class="fab fa-instagram-square"></i></li>
                     </ul>
                 </div>
             </div>
