@@ -7,4 +7,7 @@
 @tailwind utilities;
 
 @layer utilities {
+  .list-circle {
+    list-style-type: circle;
+  }
 }

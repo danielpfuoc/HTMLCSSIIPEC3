@@ -7,7 +7,10 @@ module.exports = {
       serif: ['Playfair Display', 'serif'],
     },
     extend: {
-    }
+      colors: {
+        mygreen: '#28a745',
+      }
+    },
   },
   variants: {
     extend: {},
