@@ -7,14 +7,6 @@
 @tailwind utilities;
 
 @layer utilities {
-  .list-circle {
-    list-style-type: circle;
-  }
-
-  .m-2p {
-    margin: 2.5%;
-  }
-
   @variants responsive {
     .m-4p {
       margin: 4.1%;
@@ -23,6 +15,14 @@
     .w-2_4p {
       width: 45%;
     }
+  }
+
+  .list-circle {
+    list-style-type: circle;
+  }
+
+  .m-2p {
+    margin: 2.5%;
   }
 }
 

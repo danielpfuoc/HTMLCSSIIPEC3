@@ -18,7 +18,8 @@ module.exports = {
           'variants',
           'screen',
           'use',
-          'layer'
+          'layer',
+          'variants',
         ]
       }
     ],
